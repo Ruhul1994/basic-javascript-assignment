@@ -39,7 +39,7 @@ const _x = {
   alert("Hello World!");
 }
 
-myFunction();
+//myFunction();
 
 //  Answer to the qs no : 6
 
@@ -49,25 +49,25 @@ const person = {
     name:"John",
     age : 50
 }
-alert(`${person.name} is ${person.age}`);
+//alert(`${person.name} is ${person.age}`);
 
 //  Answer to the qs no : 7
 
-const button = document.getElementById('myButton');
+// const button = document.getElementById('myButton');
 
-button.addEventListener('click', ()=>{
-  alert('Button has been clicked!');
-});
+// button.addEventListener('click', ()=>{
+//   alert('Button has been clicked!');
+// });
 
 //  Answer to the qs no : 8
 // Array Related Question
 
 const cars = ["Volvo", "Jeep", "Mercedes"];
-alert(cars.length);
+//alert(cars.length);
 
-for (let i = 0; i < cars.length; i++) {
-    alert(cars[i]);
-}
+// for (let i = 0; i < cars.length; i++) {
+//     alert(cars[i]);
+// }
 
 // Change the first item of Brand to "Ford".
 
@@ -101,9 +101,11 @@ for (let i = 0; i < cars.length; i++) {
 x = 10;
 y = 5;
 
-alert(x > y);
+//alert(x > y);
 
 // 2. Choose the correct conditional (ternary) operator to alert "Too young" if age is less than 18, otherwise alert "Old enough".
 
-const Age = 16;
-alert(Age <18 ? "Too young": "Old enough");
+// const Age = 16;
+// alert(Age <18 ? "Too young": "Old enough");
+
+console.log('Hellow world');
